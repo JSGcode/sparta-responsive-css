@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 4px black solid;
+    margin: 10px;
+}
+.top{
+    border: 4px black solid;
+    margin: 10px;
+}
+.columns{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    margin: 10px;
+}
+.column1{
+    border: 4px black solid;
+    width:50%;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+.column2{
+    border: 4px black solid;
+    width:50%;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.bottom{
+    border: 4px black solid;
+    margin: 10px;
+}
